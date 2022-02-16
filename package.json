@@ -1,0 +1,38 @@
+{
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@puregram/hear": "^2.0.2-rc.1",
+    "@puregram/utils": "^1.0.1-rc.1",
+    "dotenv-safe": "^8.2.0",
+    "puregram": "^2.3.2",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12"
+  },
+  "name": "tg-bot-starter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xm1ller/tg-bot-starter.git"
+  },
+  "keywords": [
+    "tg",
+    "bot",
+    "telegram",
+    "template",
+    "starter"
+  ],
+  "author": "Nikita Miller (xxxm1ller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xm1ller/tg-bot-starter/issues"
+  },
+  "homepage": "https://github.com/xm1ller/tg-bot-starter#readme"
+}
